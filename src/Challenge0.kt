@@ -8,5 +8,5 @@
 */
 
 fun main(){
-    print("l")
+    print("Hello world")
 }
