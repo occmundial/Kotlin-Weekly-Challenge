@@ -13,6 +13,8 @@ Repositorio de código para Kotlin en el que se publicara semanalmente los retos
 * **#0** - 01/08/2022 - `ANAGRAM`
 * **#1** -08/08/2022 - ...
 
+---
+
 ### How can I participate?
 
 **You can make a fork of the project and work on GIT to sync the updates of this project**
