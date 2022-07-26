@@ -39,6 +39,8 @@ All this can be done from command line, but if you prefer you can use graphical 
     * `Fetch upstream` allows you to sync your project with the original in case it has been updated.
 * To sync your project with the original and keep it up to date you can also do a `merge commit`, `squash merge` or `rebase` (note that each behaves differently, keeping your own changes or not).
 
+---
+
 ### ¿Cómo puedo participar?
 
 **Puedes hacer libremente un fork del proyecto y trabajar con GIT para ir sincronizando las actualizaciones del proyecto actual**
