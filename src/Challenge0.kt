@@ -3,7 +3,7 @@
 * Challenge #0
 * ANAGRAM
 * Date: 01/08/2022
-* Difficulty: Medium
+* Difficulty: Easy
 *
 * Roma Amor = true
 * roma amor = true
@@ -18,5 +18,10 @@
 */
 
 fun main(){
-    print("Hello world")
+    println(isAnagram("Valora","alvaro"))
+}
+
+fun isAnagram(text: String, text2: String): Boolean {
+    if (text.lowercase() == text2.lowercase()) return false
+    return text.lowercase().toCharArray().sortedArray().contentEquals(text2.lowercase().toCharArray().sortedArray())
 }
