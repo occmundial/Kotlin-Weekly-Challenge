@@ -11,7 +11,8 @@ Repositorio de código para Kotlin en el que se publicara semanalmente los retos
 ## Challenge list
 
 * **#0** - 01/08/2022 - `ANAGRAM`
-* **#1** -08/08/2022 - ...
+* **#1** - 08/08/2022 - `ARRAYS`
+* **#2** - 15/08/2022 - ...
 
 ---
 

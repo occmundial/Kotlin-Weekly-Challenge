@@ -3,7 +3,6 @@
 *
 * Date: 08/08/2022
 * Difficulty: Medium
-*
 */
 
 fun main(){
@@ -13,5 +12,5 @@ fun main(){
 inline fun measureTimeMillis(block: () -> Unit) {
     val start = System.currentTimeMillis()
     block()
-    println(System.currentTimeMillis() - start)
+    println("time: ${System.currentTimeMillis() - start} millis")
 }
