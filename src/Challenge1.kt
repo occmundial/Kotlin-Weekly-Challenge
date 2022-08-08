@@ -9,8 +9,11 @@
 */
 
 fun main(){
-    // [1, 6, 8, 4, 9, 12, 30, 15, 2, 4, 7, 3, 10, 4, 7, 11, 14]
-    measureTimeMillis { print("Hello world!") }
+    val arrayX = arrayOf(1, 6, 8, 4, 9, 12, 30, 15, 2, 4, 7, 3, 10, 4, 7, 11, 14)
+    measureTimeMillis {
+        //println(arrayX.sortedArray()[arrayX.lastIndex -1])
+        println(arrayX.sortedArrayDescending()[1])
+    }
 }
 
 inline fun measureTimeMillis(block: () -> Unit) {
