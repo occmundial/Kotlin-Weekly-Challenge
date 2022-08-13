@@ -4,7 +4,7 @@ import kotlin.random.Random
 * Challenge #1
 *
 * Date: 08/08/2022
-* Difficulty: Medium
+* Difficulty: Easy
 * Write a function that receives an array of int and returns the second-highest value
 * - Check Execution time complexity
 * - Check Cognitive complexity
