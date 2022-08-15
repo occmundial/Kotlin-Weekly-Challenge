@@ -9,6 +9,27 @@
 * - The supported morse alphabet will be the one shown in https://es.wikipedia.org/wiki/Código_morse.
 */
 
+val letterNormal = arrayOf("A", "B", "C", "CH", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ",", "?", "\"", "/")
+val letterMorse = arrayOf(".-", "-...", "-.-.", "----", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "--.--", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..", "-----", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----.", ".-.-.-", "--..--", "..--..", ".-..-.", "-..-.")
+
 fun main() {
-    println("Hello Kotlin")
+    translateCode("Hello Kotlin")
 }
+
+fun translateCode(words: String): String{
+
+    val wordsUpperCase = words.uppercase()
+    val arrayUpperCase = wordsUpperCase.toCharArray()
+
+    var arrayLetterCode<String> = null
+    for (letter in arrayUpperCase){
+
+        val index = letterNormal.indexOf(letter.toString())
+
+
+        println(index)
+    }
+
+    return ""
+}
+
