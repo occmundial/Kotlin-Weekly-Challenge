@@ -11,7 +11,7 @@
 
 fun main() {
     println(translate("hello world."))
-    println(translate("···· · ·—·· ·—·· ———  ·—— ——— ·—· —·· ·—·—·— "))
+    println(translate("···· · ·—·· ·—·· ———  ·—— ——— ·—· ·—·· —·· ·—·—·— "))
 }
 
 fun translate(text: String) {
