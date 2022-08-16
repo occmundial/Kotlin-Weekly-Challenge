@@ -21,7 +21,7 @@ fun translateCode(words: String): String{
     val wordsUpperCase = words.uppercase()
     val arrayUpperCase = wordsUpperCase.toCharArray()
 
-    var arrayLetterCode<String> = null
+    //var arrayLetterCode<String> = null
     for (letter in arrayUpperCase){
 
         val index = letterNormal.indexOf(letter.toString())
