@@ -10,5 +10,50 @@
 *
 */
 fun main() {
-    println("Hello Kotlin")
+    area(Triangle(10.0, 5.0))
+    area(Rectangle(10.0, 5.0))
+    area(Square(10.0))
+}
+
+private fun area(polygon: Polygon): Double {
+    polygon.printArea()
+    return polygon.area()
+}
+
+interface Polygon {
+    fun area(): Double
+    fun printArea()
+}
+
+data class Triangle(val base: Double, val height: Double): Polygon {
+    override fun area(): Double {
+        return (base * height) / 2
+    }
+
+    override fun printArea() {
+        println("El área del triangulo es ${area()}")
+    }
+
+}
+
+data class Rectangle(val lengh: Double, val width: Double) : Polygon {
+    override fun area(): Double {
+        return lengh * width
+    }
+
+    override fun printArea() {
+        println("El área del rectángulo es ${area()}")
+    }
+
+}
+
+data class Square(val side: Double) : Polygon {
+    override fun area(): Double {
+        return side * side
+    }
+
+    override fun printArea() {
+        println("El área del cuadrado es ${area()}")
+    }
+
 }
