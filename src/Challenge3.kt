@@ -10,5 +10,47 @@
 *
 */
 fun main() {
-    println("Hello Kotlin")
+    val cuadrado = Cuadrado()
+    val rectangle = Rectangle()
+    val triangulo = Triangulo()
+    var calculaArea: Float = cuadrado.calculaArea(10.0F, 10.0f)
+    println("El area del Cuadrado es: $calculaArea")
+    calculaArea = rectangle.calculaArea(15F, 10F)
+    println("El area del Rectangulo es: $calculaArea")
+    calculaArea = triangulo.calculaArea(5.0F, 10.0F)
+    println("El area del Triangulo es: $calculaArea")
+}
+
+open class Figura {
+    private var base:Float = 0.0F
+    private var altura:Float = 0.0F
+
+    companion object{
+        const val AREA_CONSTANT = 2
+    }
+
+    interface calculaArea {
+        fun calculaArea(base:Float, altura:Float) :Float
+    }
+}
+
+class Cuadrado: Figura(), Figura.calculaArea {
+
+    override fun calculaArea(base:Float, altura:Float) :Float{
+        return base * altura
+    }
+}
+
+open class Rectangle: Figura(), Figura.calculaArea{
+
+    override fun calculaArea(base:Float, altura:Float) :Float{
+        return base * altura
+    }
+}
+
+class Triangulo: Figura(), Figura.calculaArea{
+
+    override fun calculaArea(base:Float, altura:Float) :Float{
+        return (base * altura)/AREA_CONSTANT
+    }
 }
