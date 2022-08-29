@@ -8,5 +8,61 @@
 *
 */
 fun main() {
-    println("Hello Kotlin")
+
+    println("** 1 **")
+
+    for(index in 1..100){
+        println(index)
+    }
+
+    println("** 2 **")
+
+    var whileIndex = 1
+
+    while (whileIndex <= 100) {
+        println(whileIndex)
+        whileIndex += 1
+    }
+
+    println("** 3 **")
+
+    whileIndex = 1
+    do {
+        println(whileIndex)
+        whileIndex++
+    } while (whileIndex <= 100)
+
+    println("** 4 **")
+
+    fun print100(index: Int) {
+        if (index <= 100){
+            println(index)
+            print100(index + 1)
+        }
+    }
+
+    print100(1)
+
+    println("** 4 **")
+
+    (1..100).forEach { index ->
+        println(index)
+    }
+
+    println("** 6 **")
+
+    println((1..100).filter {
+        true
+    })
+
+    println("** 7 **")
+
+    println((1..100).map { it })
+
+    println("** 8 **")
+
+    repeat(100) {
+        println(it + 1)
+    }
+
 }
