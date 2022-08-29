@@ -14,7 +14,7 @@ Repositorio de código para Kotlin en el que se publicara semanalmente los retos
 * **#1** - 08/08/2022 - `ARRAYS`
 * **#2** - 15/08/2022 - `MORSE CODE`
 * **#3** - 22/08/2022 - `AREA`
-* **#4** - 29/08/2022 - `VAMOS A CONTAR`
+* **#4** - 29/08/2022 - `LETS GO TO COUNT`
 * **#5** - 05/09/2022 - ...
 
 ---
