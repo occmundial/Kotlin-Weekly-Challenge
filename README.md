@@ -15,7 +15,7 @@ Repositorio de código para Kotlin en el que se publicara semanalmente los retos
 * **#2** - 15/08/2022 - `MORSE CODE`
 * **#3** - 22/08/2022 - `AREA`
 * **#4** - 29/08/2022 - `LETS GO TO COUNT`
-* **#5** - 05/09/2022 - `FIZZ BUZZ`
+* **#5** - 05/09/2022 - `FIZZ BUZZ` [Meeting](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MTY3ZTliNGItMTg5ZS00N2NhLTk2MjUtMjUzZTk2MjY0ZGQ4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25221c2e43f6-6d3f-44ae-b2fd-74b20c01ed03%2522%252c%2522Oid%2522%253a%2522cc731782-0ffe-4e21-a63a-ef49944b2c8a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=f85321d3-90a6-4f6f-96cd-6d72d2499f8f&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
 * **#6** - 12/09/2022 - ...
 
 ---
