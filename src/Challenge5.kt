@@ -10,3 +10,16 @@
 * - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 *
 */
+
+fun main() {
+    (1..1000).forEach {
+        var num = it.toString()
+        if (it % 3 == 0) {
+            num = "fizz"
+        }
+        if (it % 5 == 0) {
+            num = if (num == "fizz") "fizzbuzz" else "buzz"
+        }
+        println(num)
+    }
+}
