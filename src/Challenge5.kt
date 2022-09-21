@@ -10,3 +10,19 @@
 * - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 *
 */
+
+fun main(){
+
+    for(index in 1..1000){
+
+        if (((index % 3) == 0) && ((index % 5) == 0)){
+            println("fizzbuzz")
+        }else if ((index % 3) == 0){
+            println("fizz")
+        }else if ((index % 5) == 0){
+            println("buzz")
+        } else{
+            println(index)
+        }
+    }
+}
