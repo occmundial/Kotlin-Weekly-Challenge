@@ -17,7 +17,8 @@ Repositorio de código para Kotlin en el que se publicara semanalmente los retos
 * **#4** - 29/08/2022 - `LETS GO TO COUNT`
 * **#5** - 21/09/2022 - `FIZZ BUZZ` [Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDVjMTBhYjEtOTgwNi00ZjhmLTg2MWItOWY5ZTg4YmVmMjZj%40thread.v2/0?context=%7b%22Tid%22%3a%221c2e43f6-6d3f-44ae-b2fd-74b20c01ed03%22%2c%22Oid%22%3a%22cc731782-0ffe-4e21-a63a-ef49944b2c8a%22%7d)
 * **#6** - 26/09/2022 - `FACTORIAL` [Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGNhMWI1MWItZTQ0Ni00MDFkLWI4YmEtMmE0MTViNTlhZWE3%40thread.v2/0?context=%7b%22Tid%22%3a%221c2e43f6-6d3f-44ae-b2fd-74b20c01ed03%22%2c%22Oid%22%3a%22cc731782-0ffe-4e21-a63a-ef49944b2c8a%22%7d)
-* **#7** - 03/10/2022 - ...
+* **#7** - 05/10/2022 - `POKEMON` [Face-to-Face](...)
+* **#8** - 
 ---
 
 ### How can I participate?
