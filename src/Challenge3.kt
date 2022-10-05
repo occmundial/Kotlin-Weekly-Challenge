@@ -31,6 +31,8 @@ open class Figura {
 
     interface calculaArea {
         fun area(base:Float, altura:Float) :Float
+
+        fun print()
     }
 }
 
@@ -39,6 +41,10 @@ class Cuadrado: Figura(), Figura.calculaArea {
     override fun area(base:Float, altura:Float) :Float{
         return base * altura
     }
+
+    override fun print() {
+        TODO("Not yet implemented")
+    }
 }
 
 open class Rectangle: Figura(), Figura.calculaArea{
@@ -46,11 +52,19 @@ open class Rectangle: Figura(), Figura.calculaArea{
     override fun area(base:Float, altura:Float) :Float{
         return base * altura
     }
+
+    override fun print() {
+        TODO("Not yet implemented")
+    }
 }
 
 class Triangulo: Figura(), Figura.calculaArea{
 
     override fun area(base:Float, altura:Float) :Float{
         return (base * altura)/AREA_CONSTANT
+    }
+
+    override fun print() {
+        TODO("Not yet implemented")
     }
 }
