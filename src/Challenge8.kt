@@ -69,29 +69,29 @@ fun main() {
 
 fun battle(goodsArmy: GoodsArmy, evilsArmy: EvilsArmy) {
     var goodsArmyPower = 0
-    for (i in 0..4) {
-        val num = when(i) {
-            0 -> goodsArmy.Hobbit
-            1 -> goodsArmy.Southerners
-            2 -> goodsArmy.Dwarves
-            3 -> goodsArmy.Numenoreans
-            4 -> goodsArmy.Elves
+    for (race in 0..4) {
+        val num = when(race) {
+            Hobbit -> goodsArmy.Hobbit
+            Southerners -> goodsArmy.Southerners
+            Dwarves -> goodsArmy.Dwarves
+            Numenoreans -> goodsArmy.Numenoreans
+            Elves -> goodsArmy.Elves
             else -> 0
         }
-        goodsArmyPower += (GoodPower[i] ?: 0) * num
+        goodsArmyPower += (GoodPower[race] ?: 0) * num
     }
 
     var evilsArmyPower = 0
-    for (i in 0..4) {
-        val num = when(i) {
-            0 -> evilsArmy.Southlanders
-            1 -> evilsArmy.Orcs
-            2 -> evilsArmy.Goblins
-            3 -> evilsArmy.Wargs
-            4 -> evilsArmy.Trolls
+    for (race in 0..4) {
+        val num = when(race) {
+            Southlanders -> evilsArmy.Southlanders
+            Orcs -> evilsArmy.Orcs
+            Goblins -> evilsArmy.Goblins
+            Wargs -> evilsArmy.Wargs
+            Trolls -> evilsArmy.Trolls
             else -> 0
         }
-        evilsArmyPower += (EvilPower[i] ?: 0) * num
+        evilsArmyPower += (EvilPower[race] ?: 0) * num
     }
 
     if (goodsArmyPower > evilsArmyPower) {
