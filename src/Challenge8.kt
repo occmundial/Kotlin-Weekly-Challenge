@@ -17,13 +17,13 @@
  * Ex: 1 Hairy loses against 1 Orc, 2 Hairy tie against 1 Orc, 3 Hairy win against 1 Orc.
  */
 
-const val Hobbit = 0;
+const val Hobbit = 0
 const val Southerners = 1
 const val Dwarves = 2
 const val Numenoreans = 3
 const val Elves = 4
 
-const val Southlanders = 0;
+const val Southlanders = 0
 const val Orcs = 1
 const val Goblins = 2
 const val Wargs = 3
