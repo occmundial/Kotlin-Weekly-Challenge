@@ -1,3 +1,5 @@
+import java.lang.Thread.sleep
+
 /*
 * Challenge #8
 *
@@ -22,21 +24,21 @@ fun main() {
         listOf(Pair(EvilArmy.ORC, 1))
     ))
 
-    battleForTheMiddleEarth(
+    println(battleForTheMiddleEarth(
         listOf(Pair(KindArmy.ELF, 1)),
-        listOf(Pair(EvilArmy.TROLL, 1)))
+        listOf(Pair(EvilArmy.TROLL, 1))))
 
-    battleForTheMiddleEarth(
+    println(battleForTheMiddleEarth(
         listOf(Pair(KindArmy.ELF, 1), Pair(KindArmy.HOBBIT, 1)),
-        listOf(Pair(EvilArmy.TROLL, 1)))
+        listOf(Pair(EvilArmy.TROLL, 1))))
 
-    battleForTheMiddleEarth(
+    println(battleForTheMiddleEarth(
         listOf(Pair(KindArmy.ELF, 1), Pair(KindArmy.HOBBIT, 1)),
-        listOf(Pair(EvilArmy.TROLL, 1), Pair(EvilArmy.ORC, 1)))
+        listOf(Pair(EvilArmy.TROLL, 1), Pair(EvilArmy.ORC, 1))))
 
-    battleForTheMiddleEarth(
+    println(battleForTheMiddleEarth(
         listOf(Pair(KindArmy.ELF, 56), Pair(KindArmy.HOBBIT, 80), Pair(KindArmy.DWARF, 5)),
-        listOf(Pair(EvilArmy.TROLL, 17), Pair(EvilArmy.ORC, 51), Pair(EvilArmy.WARG, 10), Pair(EvilArmy.SOUTHERNER, 2)))
+        listOf(Pair(EvilArmy.TROLL, 17), Pair(EvilArmy.ORC, 51), Pair(EvilArmy.WARG, 10), Pair(EvilArmy.SOUTHERNER, 2))))
 }
 
 enum class KindArmy() {
