@@ -2,7 +2,7 @@
 * Challenge #10
 * THREE IN A ROW
 * Date: 24/10/2022
-* Difficulty: Medium
+* Difficulty: Hard
 *
 * Create a function that parses a 3x3 matrix made up of "X" and "O" and returns the following:
 * - "X" if they have won the "X"
