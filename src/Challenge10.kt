@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane
+
 /*
 * Challenge #10
 * THREE IN A ROW
@@ -13,4 +15,23 @@
 */
 fun main() {
     println("THREE IN A ROW")
+
+    /*var test = JOptionPane.showInputDialog("Introduce un caracter");
+    println(test)*/
+
+    var matriz = arrayOf(
+        intArrayOf(1,2,3),
+        intArrayOf(4,5,6),
+        intArrayOf(7,8,9)
+    )
+
+    for (i in (0 until 3)){
+
+        for (j in (0 until 3)){
+            print("${matriz[i][j]},")
+        }
+
+        println()
+    }
 }
+
