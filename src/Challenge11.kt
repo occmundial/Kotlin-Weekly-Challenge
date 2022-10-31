@@ -1,7 +1,7 @@
 
 /*
-* Challenge #10
-* THREE IN A ROW
+* Challenge #11
+* Trick or Treat
 * Date: 31/10/2022
 * Difficulty: Medium
 *
