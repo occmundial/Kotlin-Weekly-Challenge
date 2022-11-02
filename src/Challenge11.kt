@@ -1,3 +1,4 @@
+import kotlin.random.Random
 
 /*
 * Challenge #11
@@ -28,6 +29,54 @@
 * - Two sweets for every 50 cm of height up to a maximum of 150 cm per person
 * - Sweets: 🍰 🍬 🍡 🍭 🍪 🍫 🧁 🍩
 */
+
+val scaresArray = arrayOf("🎃", "👻", "💀", "🕷", "🕸", "🦇")
+val sweetsArray = arrayOf("🍰", "🍬", "🍡", "🍭", "🍪", "🍫", "🧁", "🍩",)
+
+enum class Choose { Trick, Treat }
+
+data class Children(val name: String, val age: Int, val height: Int, val choose: Choose)
+
+val people = arrayOf(
+    Children("Manuel", 10, 160, Choose.Trick),
+    Children("Josefina", 12, 110, Choose.Treat),
+    Children("Alma", 5, 50, Choose.Trick),
+    Children("Pedro", 7, 120, Choose.Treat)
+)
+
 fun main() {
-    println("Hello Halloween 🎃 👻 💀 🕷 🕸 🦇")
+    people.trickOrTreat()
+}
+
+fun Array<Children>.trickOrTreat() {
+    forEach { children ->
+        when(children.choose) {
+            Choose.Trick -> println(children.trick())
+            Choose.Treat -> println(children.treat())
+        }
+    }
+}
+
+fun Children.trick(): String {
+    val scaresFromName: Int = (name.count() / 2)
+    val scaresFromAge = if (age % 2 == 0) 2 else 0
+    val scaresFromHeight: Int = (height / 100) * 3
+    val total = scaresFromName + scaresFromAge + scaresFromHeight
+    var scares = ""
+    for (i in 0 until total) {
+        scares += scaresArray[Random.nextInt(0, scaresArray.size)]
+    }
+    return scares
+}
+
+fun Children.treat(): String {
+    val sweetsFromName: Int = name.length
+    val sweetsFromAge: Int = if (age > 10) 3 else age / 3
+    val sweetsFromHeight: Int = if (height > 150) 6 else (height / 50) * 2
+    val total = sweetsFromHeight + sweetsFromAge + sweetsFromName
+    var sweets = ""
+    for (i in 0 until total) {
+        sweets += sweetsArray[Random.nextInt(0, sweetsArray.size)]
+    }
+    return sweets
 }
