@@ -30,4 +30,47 @@
 */
 fun main() {
     println("Hello Halloween 🎃 👻 💀 🕷 🕸 🦇")
+
+    val personas = ArrayList<Persona>()
+    personas.add(Persona("Andrea", 3, 60))
+    personas.add(Persona("Manuel", 7, 105))
+    personas.add(Persona("Jesus", 5, 150))
+    personas.add(Persona("Diana", 12, 100))
+    personas.add(Persona("Elizabeth", 10, 70))
+    personas.add(Persona("Gerardo", 8, 90))
+
+    var trickOrTreat: Boolean = false
+    val volado = TrickOrTreat()
+
+    if (volado >= 50){
+        trickOrTreat = true
+    }else{
+        trickOrTreat = false
+    }
+
+    
+    println("El elemento en la posicion tres es: " + personas[2])
+    println("Todos los elementos son:")
+
+    for(persona in personas){
+        println(persona.name.toCharArray().size)
+    }
 }
+
+fun Sweets(): Int{
+    return (0..7).random()
+}
+
+fun Scares(): Int{
+    return (0..5).random()
+}
+
+fun TrickOrTreat(): Int {
+    return (1..100).random()
+}
+
+data class Persona(
+    var name: String = "",
+    var edad: Int = 0,
+    var estatura: Int = 0
+)
