@@ -35,33 +35,41 @@ val sweetsArray = arrayOf("🍰", "🍬", "🍡", "🍭", "🍪", "🍫", "🧁"
 
 enum class Choose { Trick, Treat }
 
-data class Children(val name: String, val age: Int, val height: Int, val choose: Choose)
+data class Children(val name: String, val age: Int, val height: Int)
 
 val people = arrayOf(
-    Children("Manuel", 10, 160, Choose.Trick),
-    Children("Josefina", 12, 110, Choose.Treat),
-    Children("Alma", 5, 50, Choose.Trick),
-    Children("Pedro", 7, 120, Choose.Treat)
+    Children("Manuel", 10, 160),
+    Children("Josefina", 12, 110),
+    Children("Alma", 5, 50),
+    Children("Pedro", 7, 120)
 )
 
 fun main() {
-    people.trickOrTreat()
+    println(people.trickOrTreat(Choose.Trick))
+    println(people.trickOrTreat(Choose.Treat))
 }
 
-fun Array<Children>.trickOrTreat() {
-    forEach { children ->
-        when(children.choose) {
-            Choose.Trick -> println(children.trick())
-            Choose.Treat -> println(children.treat())
+fun Array<Children>.trickOrTreat(choose: Choose): String {
+    var result = ""
+    when(choose) {
+        Choose.Trick -> {
+            var totalHeight = 0
+            forEach { children ->
+                result += children.trick()
+                totalHeight += children.height
+            }
+            result += getScaresFromHeight(totalHeight)
         }
+
+        Choose.Treat -> forEach { children -> result += children.treat() }
     }
+    return result
 }
 
 fun Children.trick(): String {
     val scaresFromName: Int = (name.count() / 2)
     val scaresFromAge = if (age % 2 == 0) 2 else 0
-    val scaresFromHeight: Int = (height / 100) * 3
-    val total = scaresFromName + scaresFromAge + scaresFromHeight
+    val total = scaresFromName + scaresFromAge
     var scares = ""
     for (i in 0 until total) {
         scares += scaresArray[Random.nextInt(0, scaresArray.size)]
@@ -79,4 +87,13 @@ fun Children.treat(): String {
         sweets += sweetsArray[Random.nextInt(0, sweetsArray.size)]
     }
     return sweets
+}
+
+fun getScaresFromHeight(height: Int): String {
+    val scaresFromHeight: Int = (height / 100) * 3
+    var scares = ""
+    for (i in 0 until scaresFromHeight) {
+        scares += scaresArray[Random.nextInt(0, scaresArray.size)]
+    }
+    return scares
 }
