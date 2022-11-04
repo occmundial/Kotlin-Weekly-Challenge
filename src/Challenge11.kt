@@ -84,7 +84,7 @@ fun Children.treat(): String {
     val total = sweetsFromHeight + sweetsFromAge + sweetsFromName
     var sweets = ""
     for (i in 0 until total) {
-        sweets += sweetsArray[Random.nextInt(0, sweetsArray.size)]
+        sweets += sweetsArray.random()
     }
     return sweets
 }
@@ -93,7 +93,7 @@ fun getScaresFromHeight(height: Int): String {
     val scaresFromHeight: Int = (height / 100) * 3
     var scares = ""
     for (i in 0 until scaresFromHeight) {
-        scares += scaresArray[Random.nextInt(0, scaresArray.size)]
+        scares += scaresArray.random()
     }
     return scares
 }
