@@ -39,4 +39,4 @@
 | Camera    | string| all       | see table above for abbreviations |
 | page      | int   | 1         | 25 items per page returned|
 
-[**VIEW ALL CHALLENGES**](./)
+[**VIEW ALL CHALLENGES**](https://github.com/occmundial/Kotlin-Weekly-Challenge/)
