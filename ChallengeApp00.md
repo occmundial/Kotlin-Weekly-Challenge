@@ -1,6 +1,6 @@
 # Mars Rover Photos
-
-## Monthly Challenge APP 00
+### Monthly Challenge APP 00
+---
 
 ### Posted on 07/11/2022
 
