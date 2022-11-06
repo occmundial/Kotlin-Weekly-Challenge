@@ -1,6 +1,6 @@
-# Monthly Challenge APP 00
 # Mars Rover Photos
 
+## Monthly Challenge APP 00
 ---
 
 ### Posted on 07/11/2022
@@ -18,7 +18,7 @@
 > * The list will have a search filters.
 > * When selecting a image from the list, the detail will show the data that it considers appropriate.
 
-## Rover Cameras
+### Rover Cameras
 
 |Abbreiviation  |Camera                         |Curiosity  |Opportunity    |Spirit |
 |   -           |   -                           |   -       |   -           |   -   |
@@ -32,7 +32,7 @@
 | PANCAM        | Panoramic Camera              |           | &check;       |&check;|
 | MINITES       | Miniature Thermal Emission Spectrometer(Mini-TES) |   |&check;|&check;|
 
-## Querying by Martian sol
+### Querying by Martian sol
 
 |Parameter  |Type   |Default    |Description    |
 |   -       |   -   |   -       |   -           |
