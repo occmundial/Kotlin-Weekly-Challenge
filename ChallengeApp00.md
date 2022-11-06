@@ -1,8 +1,7 @@
 # Mars Rover Photos
-### Monthly Challenge APP 00
----
 
-### Posted on 07/11/2022
+### Monthly Challenge APP 00
+#### Posted on 07/11/2022
 
 > Create an app that serves to list the image data gathered by NASA's, Curiosity, Opportunity, 
 > and Spirit rovers on Mars
