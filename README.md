@@ -22,7 +22,8 @@ Repositorio de código para Kotlin en el que se publicara semanalmente los retos
 * **#9** - 17/10/2022 - `THE RELEASES OF "THE LEGEND OF ZELDA"` [Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGNhMWI1MWItZTQ0Ni00MDFkLWI4YmEtMmE0MTViNTlhZWE3%40thread.v2/0?context=%7b%22Tid%22%3a%221c2e43f6-6d3f-44ae-b2fd-74b20c01ed03%22%2c%22Oid%22%3a%22cc731782-0ffe-4e21-a63a-ef49944b2c8a%22%7d)
 * **#10** - 24/10/2022 - `THREE IN A ROW` [Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGNhMWI1MWItZTQ0Ni00MDFkLWI4YmEtMmE0MTViNTlhZWE3%40thread.v2/0?context=%7b%22Tid%22%3a%221c2e43f6-6d3f-44ae-b2fd-74b20c01ed03%22%2c%22Oid%22%3a%22cc731782-0ffe-4e21-a63a-ef49944b2c8a%22%7d)
 * **#11** - 31/10/2022 - `Trick or Treat` [Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGNhMWI1MWItZTQ0Ni00MDFkLWI4YmEtMmE0MTViNTlhZWE3%40thread.v2/0?context=%7b%22Tid%22%3a%221c2e43f6-6d3f-44ae-b2fd-74b20c01ed03%22%2c%22Oid%22%3a%22cc731782-0ffe-4e21-a63a-ef49944b2c8a%22%7d)
-* **#12** - 07/11/2022
+* **#12** - 07/11/2022 - [The Star Wars Encyclopedia](./ChallengeApp02.md)
+* **#13** - 04/12/2022 - `...`
 ---
 
 ### How can I participate?
