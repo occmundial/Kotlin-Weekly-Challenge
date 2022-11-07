@@ -9,7 +9,8 @@
 >
 >  Requirements:
 > 
-> * Use the API [mars-photo-api](https://mars-photos.herokuapp.com/explore/). 
+> * Use the API [mars-photo-api](https://mars-photos.herokuapp.com/). 
+> * [Nasa](http://api.nasa.gov/)
 > * [GITHUB](https://github.com/chrisccerami/mars-photo-api#querying-the-api)
 > * The design is freely selectable. 
 > * The list must be paginated. (up to 25 results)
