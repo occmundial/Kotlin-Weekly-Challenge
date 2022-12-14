@@ -1,5 +1,4 @@
 # Mars Rover Photos
-
 ### Monthly Challenge APP 00
 #### Posted on 07/11/2022
 
@@ -38,5 +37,7 @@
 | Sol       | int   | none      | sol (ranges from 0 to max found in endpoint |
 | Camera    | string| all       | see table above for abbreviations |
 | page      | int   | 1         | 25 items per page returned|
+
+Soluciones: [**ENLACES A LOS REPOSITORIOS**](./Soluciones00.md)
 
 [**VIEW ALL CHALLENGES**](https://github.com/occmundial/Kotlin-Weekly-Challenge/)
